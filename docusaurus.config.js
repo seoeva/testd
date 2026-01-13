@@ -47,21 +47,6 @@ const config = {
     { href: 'https://github.com/seoeva/testd', label: 'GitHub', position: 'right' },
   ],
 },
-    footer: {
-      style: 'dark',
-      links: [
-        { title: 'Docs', items: [
-          { label: 'Executive Summary', to: '/executive-summary' },
-          { label: 'Security Guarantees', to: '/security-guarantees' },
-          { label: 'Audit', to: '/audit' },
-        ]},
-        { title: 'Links', items: [
-          { label: 'GitBook', href: 'https://mx0-1.gitbook.io/mev-x-homelander' },
-          { label: 'GitHub', href: 'https://github.com/USERNAME/REPO' },
-        ]},
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} MEV-X`,
-    },
     prism: { additionalLanguages: ['solidity'] },
     docs: { sidebar: { hideable: false } },
   }),
