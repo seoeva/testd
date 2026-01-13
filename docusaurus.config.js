@@ -6,7 +6,7 @@ const config = {
   baseUrl: '/testd/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'seoeva',
   projectName: 'testd',
   trailingSlash: true,
@@ -32,15 +32,25 @@ const config = {
       respectPrefersColorScheme: true,
       disableSwitch: false,
     },
-    navbar: {
-      title: 'MEV-X Homelander',
-      logo: { alt: 'MEV-X', src: 'img/logo.svg' },
-      items: [
-        { type: 'docSidebar', sidebarId: 'mainSidebar', position: 'left', label: 'Docs' },
-        { href: 'https://mx0-1.gitbook.io/mev-x-homelander', label: 'GitBook', position: 'right' },
-        { href: 'https://github.com/USERNAME/REPO', label: 'GitHub', position: 'right' },
-      ],
-    },
+  navbar: {
+  title: 'MEV-X Homelander',
+  logo: {
+    alt: 'MEV-X',
+    src: 'img/logo.png',
+  },
+  items: [
+    // 1) Убрали Docs слева (его больше нет)
+
+    // 2) Website вместо GitBook
+    { href: 'https://www.mev-x.com/', label: 'Website', position: 'right' },
+
+    // 3) X рядом с сайтом
+    { href: 'https://x.com/MEV_X_project', label: 'X', position: 'right' },
+
+    // GitHub оставляем
+    { href: 'https://github.com/seoeva/testd', label: 'GitHub', position: 'right' },
+  ],
+},
     footer: {
       style: 'dark',
       links: [
