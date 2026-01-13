@@ -21,3 +21,8 @@ html[data-theme='dark'] {
 .menu__link { border-radius: 10px; }
 .menu__link--active { background: rgba(90,163,255,0.10); }
 .table-of-contents { border-left: 1px solid rgba(255,255,255,0.08); }
+.navbar__logo img {
+  height: 28px;
+  width: auto;
+}
+
