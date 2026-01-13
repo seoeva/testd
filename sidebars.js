@@ -3,7 +3,6 @@ const sidebars = {
   mainSidebar: [
     'index',
     'executive-summary',
-    'scale-of-mev-leakage',
     'architecture-overview',
     'integration-for-exchanges',
     'profit-distribution-model',
