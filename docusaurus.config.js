@@ -2,13 +2,13 @@
 const config = {
   title: 'MEV-X Homelander',
   tagline: 'Post-swap, atomic MEV internalization for DEXs',
-  url: 'https://USERNAME.github.io',
-  baseUrl: '/REPO/',
+  url: 'https://seoeva.github.io',
+  baseUrl: '/testd/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'USERNAME',
-  projectName: 'REPO',
+  organizationName: 'seoeva',
+  projectName: 'testd',
   trailingSlash: true,
   i18n: { defaultLocale: 'en', locales: ['en'] },
   presets: [
