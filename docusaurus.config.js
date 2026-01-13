@@ -36,7 +36,7 @@ const config = {
   title: 'MEV-X Homelander',
   logo: {
     alt: 'MEV-X',
-    src: 'img/logo.svg',
+    src: 'img/logo.png',
   },
   items: [
   
