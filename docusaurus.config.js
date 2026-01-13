@@ -6,7 +6,7 @@ const config = {
   baseUrl: '/testd/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.svg',
   organizationName: 'seoeva',
   projectName: 'testd',
   trailingSlash: true,
@@ -36,18 +36,14 @@ const config = {
   title: 'MEV-X Homelander',
   logo: {
     alt: 'MEV-X',
-    src: 'img/logo.png',
+    src: 'img/logo.svg',
   },
   items: [
-    // 1) Убрали Docs слева (его больше нет)
-
-    // 2) Website вместо GitBook
+  
     { href: 'https://www.mev-x.com/', label: 'Website', position: 'right' },
 
-    // 3) X рядом с сайтом
     { href: 'https://x.com/MEV_X_project', label: 'X', position: 'right' },
 
-    // GitHub оставляем
     { href: 'https://github.com/seoeva/testd', label: 'GitHub', position: 'right' },
   ],
 },
