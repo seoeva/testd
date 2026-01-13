@@ -1,0 +1,15 @@
+{
+  "name": "mev-x-homelander-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.5.2",
+    "@docusaurus/preset-classic": "^3.5.2",
+    "prism-react-renderer": "^2.4.0"
+  }
+}
