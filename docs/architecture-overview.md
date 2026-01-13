@@ -36,3 +36,12 @@ If a viable opportunity is detected, the execution layer performs the backrun th
 Once the arbitrage route completes, the settlement path finalizes the outcome inside the same transaction. It calculates the net surplus and applies the platform’s configured distribution model, allocating returns among the designated recipients.
 
 All transfers are executed using standard ERC-20 mechanisms and occur before the outer transaction completes. Settlement remains fully contained within the transaction boundary defined by the execution layer.
+
+---
+
+<div style={{ textAlign: 'center' }}>
+
+![MEV-X Architecture Overview](/img/scheme.jpg)
+
+</div>
+
