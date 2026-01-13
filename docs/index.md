@@ -9,4 +9,4 @@ It outlines the mechanisms that enable internal backrun execution, describes the
 
 The focus of this document is on the core components of the system, the safety measures that govern execution, and the integration principles that ensure the solution remains **non-invasive**, **deterministic**, and compatible with existing AMM architectures.
 ---
-![MEV-X Homelander overview](/img/homelander.jpg)
+![MEV-X Homelander overview](/img/homelander-overview.jpg)
