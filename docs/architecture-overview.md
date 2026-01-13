@@ -37,5 +37,4 @@ Once the arbitrage route completes, the settlement path finalizes the outcome in
 
 All transfers are executed using standard ERC-20 mechanisms and occur before the outer transaction completes. Settlement remains fully contained within the transaction boundary defined by the execution layer.
 
----
 ![MEV-X Architecture Overview](/img/scheme.jpg)
