@@ -8,6 +8,7 @@ const sidebars = {
     'profit-distribution-model',
     'security-guarantees',
     'audit',
+    'links-and-contacts',
   ],
 };
 module.exports = sidebars;
