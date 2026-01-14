@@ -2,13 +2,6 @@
   <img src="https://seoeva.github.io/testd/img/homelander-overview.jpg" alt="MEV-X Homelander" width="600" />
 </p>
 
-<h1 align="center">MEV-X Homelander</h1>
-
-<p align="center">
-  A next-generation MEV internalization solution that brings MEV back to DEXs.
-</p>
-
----
 
 ### Overview
 
